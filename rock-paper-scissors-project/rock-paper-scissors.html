@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <script src="rock-paper-scissors.js"></script> -->
+        <link href="rock-paper-scissors.css" rel="stylesheet" />
+        <title>Rock Paper Scissors</title>
+    </head>
+
+    <body>
+        <main id="main">
+            <div id="header">
+                <div id="total">
+                    <p></p>
+                </div>
+
+                <div id="div-final-score">
+                    <p id="para-final-score"></p>
+                </div>
+                <div id="score">
+                    <p></p>
+                </div>
+            </div>
+            <div id="body">
+                <div value="testing" id="click-items">
+                    <div id="rock" value="rock" class="click-item">
+                        Rock
+                        <img value="rock" class="img-item" src="pierre.png" />
+                    </div>
+                    <div id="paper" value="paper" class="click-item">
+                        Paper
+                        <img value="paper" class="img-item" src="feuille.png" />
+                    </div>
+                    <div id="scissors" value="scissors" class="click-item">
+                        Scissors
+                        <img value="scissors" class="img-item" src="ciseau.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="div-round-score">
+                Round<p id="para-round-score"></p>
+            </div>
+            <div>
+                How many rounds
+                <select name="round" id="round_select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </main>
+    </body>
+    <script src="rock-paper-scissors.js"></script>
+</html>
